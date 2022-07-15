@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    height: 40px;
+    margin: 30px;
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}

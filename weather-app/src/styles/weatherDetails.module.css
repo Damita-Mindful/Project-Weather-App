@@ -1,0 +1,133 @@
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin-top:0px;
+    margin-left: 2%;
+}
+
+.info {
+    float: left;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 18px;
+    border: solid white;
+    width: 500px;
+    height: 400px;
+    margin-top: 0%;
+    margin-bottom: 10%;
+    margin-left: 2.5%;
+}
+
+.fore {
+    float: left;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 18px;
+    border: solid white;
+    width: 500px;
+    height: 400px;
+    margin-top: 0%;
+    margin-bottom: 10%;
+    margin-left: 0%;
+    margin-right: 30px;
+}
+
+.city {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    color: blueviolet;
+}
+
+.country {
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.date{
+    text-align: center;
+    color: white;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.icon {
+    height: 70px;
+}
+
+.condition {
+    font-size: 20px;
+    color: white;
+}
+
+.next{
+    color: blueviolet;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.icons{
+    margin-right: 15px;
+}
+
+.temp {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.more{
+    color: white;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.day{
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 10%;
+}
+
+.text {
+    color: white;
+    font-size: 16px;
+}
+
+.current {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+
+.map {
+    margin-top: 3%;
+}
+
+.date {
+        color: white;
+        font-size: 16px;
+}
